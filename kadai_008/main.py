@@ -1,12 +1,16 @@
 import random  # random モジュールをインポート
 
 def fizz_buzz(var):
+    # var が3でも5でも割り切れる場合
     if var % 3 == 0 and var % 5 == 0:
         print("FizzBuzz")
+    # var が3で割り切れる場合
     elif var % 3 == 0:
         print("Fizz")
+    # var が5で割り切れる場合
     elif var % 5 == 0:
         print("Buzz")
+    # それ以外の場合、var をそのまま出力
     else:
         print(var)
 
