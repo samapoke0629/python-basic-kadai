@@ -1,0 +1,47 @@
+/* Google FontsのリンクをHTMLに追加する必要があります */
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px; /* 2倍のサイズ */
+    letter-spacing: 1.2em; /* 文字間隔 */
+    text-shadow: 2px 2px 4px #aaa; /* 影の設定 */
+    border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
+}
+
+:root {
+    font-size: 20px;
+}
+
+.pink {
+    color: rgb(255, 192, 203);
+}
+
+.sky-blue {
+    color: skyblue;
+}
+
+#basic h2.pink, #basic p {
+    color: rgb(255, 192, 203); /* ピンク色 */
+}
+
+#basic h2.sky-blue, #basic p {
+    color: skyblue; /* スカイブルー */
+}
+
+#basic {
+    font-weight: bold; /* 太字 */
+}
+
+p {
+    font-weight: normal; /* その他のp要素は太字にしない */
+}
+
+/* HTMLの変更が必要です */
+/* h1タグ内の"M"と"P"に対応するspanタグにクラスを追加 */
+/* "名前"、"血液型"、"好きな食べ物"のh2タグにclass="pink"を追加 */
+/* "生年月日"、"趣味"、"プログラミングを始めた理由"のh2タグにclass="sky-blue"を追加 */
+/* "名前"～"血液型"までの要素をdivタグで囲い、id="basic"を追加 */
