@@ -1,0 +1,149 @@
+#top {
+    width: 800px; /* 横幅を800pxに設定 */
+    background-color: #dcc9f4; /* 背景色を設定 */
+    margin: 20px auto; /* 上下の余白を20px、左右を自動で中央揃えに設定 */
+    display: flex; /* Flexboxを使用して子要素を横並びにする */
+    justify-content: center; /* 子要素を中央揃えにする */
+}
+
+.top-child {
+    width: 20%; /* 横幅を親要素の20%に設定 */
+    background-color: #ffd9df; /* 背景色を設定 */
+    text-align: center;
+    margin: 5px; /* 上下の余白を20px、左右を自動で中央揃えに設定 */
+}
+
+#middle {
+    width: 800px; /* 横幅を800pxに設定 */
+    height: 800px; /* 高さを800pxに設定 */
+    margin: 20px auto; /* 上下の余白を20px、左右を自動で中央揃えに設定 */
+    background-color: #ffd9df; /* 背景色を設定 */
+    position: relative; /* 親要素を相対位置に設定 */
+}
+
+.middle-child {
+    width: 200px; /* 横幅を200pxに設定 */
+    height: 200px; /* 高さを200pxに設定 */
+    background-color: #87ceeb; /* 背景色を設定 */
+}
+
+#middle-child01 {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: absolute; /* 絶対位置に設定 */
+    top: 100px; /* 上から100pxの位置 */
+    left: 100px; /* 左から100pxの位置 */
+}
+
+#middle-child02 {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: absolute; /* 絶対位置に設定 */
+    top: 300px; /* 上から300pxの位置 */
+    left: 300px; /* 左から300pxの位置 */
+}
+
+#middle-child03 {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: absolute; /* 絶対位置に設定 */
+    top: 500px; /* 上から500pxの位置 */
+    left: 500px; /* 左から500pxの位置 */
+}
+
+#bottom {
+    width: 800px; /* 横幅を800pxに設定 */
+    height: 300px; /* 高さを300pxに設定 */
+    margin: 0 auto; /* 画面の中央に配置 */
+    background-color: #87ceeb; /* 背景色を設定 */
+}
+
+.bottom-child {
+    width: 400px; /* 横幅を400pxに設定 */
+    height: 100px; /* 高さを100pxに設定 */
+    background-color: #e5dcf0; /* 背景色を設定 */
+}
+
+#bottom-child02 {
+    /* position: relative; 相対位置に設定 */
+    left: 200px; /* 左から200pxずらす */
+}
+
+#bottom-child03 {
+    /* position: relative; 相対位置に設定 */
+    left: 400px; /* 左から400pxずらす */
+}
+
+#middle {
+    width: 800px; /* 横幅を800pxに設定 */
+    height: 800px; /* 高さを800pxに設定 */
+    margin: 20px auto; /* 上下の余白を20px、左右を自動で中央揃えに設定 */
+    background-color: #ffd9df; /* 背景色を設定 */
+    position: relative; /* 親要素を相対位置に設定 */
+}
+
+.middle-child {
+    width: 200px; /* 横幅を200pxに設定 */
+    height: 200px; /* 高さを200pxに設定 */
+    background-color: #87ceeb; /* 背景色を設定 */
+}
+
+#middle-child01 {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: absolute; /* 絶対位置に設定 */
+    top: 100px; /* 上から100pxの位置 */
+    left: 100px; /* 左から100pxの位置 */
+}
+
+#middle-child02 {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: absolute; /* 絶対位置に設定 */
+    top: 300px; /* 上から300pxの位置 */
+    left: 300px; /* 左から300pxの位置 */
+}
+
+#middle-child03 {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: absolute; /* 絶対位置に設定 */
+    top: 500px; /* 上から500pxの位置 */
+    left: 500px; /* 左から500pxの位置 */
+}
+
+#bottom {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #87ceeb;
+    position: relative;
+}
+
+.bottom-child {
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+    position: absolute;
+}
+
+#bottom-child01 {
+    top: 0;
+    left: 0;
+}
+
+#bottom-child02 {
+    top: 100px;
+    left: 200px;
+}
+
+#bottom-child03 {
+    top: 200px;
+    left: 400px;
+}
