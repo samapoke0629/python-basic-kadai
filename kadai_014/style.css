@@ -6,7 +6,7 @@ body {
 
 h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 40PX; /* :rootのフォントサイズの2倍 */
+    font-size: 2rem; /* :rootのフォントサイズの2倍 */
     letter-spacing: 1.2em; /* 文字間隔 */
     text-shadow: 2px 2px 4px #aaa; /* 影の設定 */
     border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
