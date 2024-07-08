@@ -40,10 +40,10 @@ main {
 }
 
 .contents h2::before {
-    content: "●";
-    color: rgb(239, 111, 139);
-    position: absolute;
-    left: -20px;
+    content: '●';
+    display: inline-block;
+    margin-right: 10px; /* 必要に応じて調整 */
+    color: red; /* 必要に応じて色を変更 */
 }
 
 .contents p:nth-of-type(2)::first-letter {
