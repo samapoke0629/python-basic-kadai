@@ -12,10 +12,7 @@ h1 {
     border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
 }
 
-h2.pink,
-h2.sky-blue {
-    font-weight: bold;
-}
+
 
 :root {
     font-size: 20px;
@@ -29,15 +26,7 @@ h2.sky-blue {
     color: skyblue;
 }
 
-#basic h2.pink, #basic p {
-    color: rgb(255, 192, 203); /* ピンク色 */
-}
-
-#basic h2.sky-blue, #basic p {
-    color: skyblue; /* スカイブルー */
-}
-
-#basic {
+#basic p{
     font-weight: bold; /* 太字 */
 }
 
