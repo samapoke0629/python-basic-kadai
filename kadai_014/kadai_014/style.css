@@ -12,6 +12,11 @@ h1 {
     border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
 }
 
+h2.pink,
+h2.sky-blue {
+    font-weight: bold;
+}
+
 :root {
     font-size: 20px;
 }
@@ -39,9 +44,3 @@ h1 {
 p {
     font-weight: normal; /* その他のp要素は太字にしない */
 }
-
-/* HTMLの変更が必要です */
-/* h1タグ内の"M"と"P"に対応するspanタグにクラスを追加 */
-/* "名前"、"血液型"、"好きな食べ物"のh2タグにclass="pink"を追加 */
-/* "生年月日"、"趣味"、"プログラミングを始めた理由"のh2タグにclass="sky-blue"を追加 */
-/* "名前"～"血液型"までの要素をdivタグで囲い、id="basic"を追加 */
